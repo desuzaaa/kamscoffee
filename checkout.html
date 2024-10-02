@@ -100,7 +100,7 @@
       </ul>
     </header>
     <main>
-      <div class="container border rounded border-3">
+      <div class="container border rounded border-3 mt-5 pb-4">
         <h1 class="fs-2">Payment Form</h1>
         <form>
           <div class="row">
@@ -124,21 +124,21 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-md-1 pt-2">
               <div class="form-group">
-                <label for="expiredate">Expiration Date</label>
+                <label for="expiredate">Expiration</label>
                 <input type="text" class="form-control" id="expiredate" placeholder="MM/YY" value="05/04" />
               </div>
             </div>
-          </div>
-          <div class="col-md-1">
-            <div class="form-group">
-              <label for="cvv">CVV</label>
-              <input type="text" class="form-control" id="cvv" placeholder="CVV" value="123" />
+            <div class="col-md-1 pt-2">
+              <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" class="form-control" id="cvv" placeholder="CVV" value="123" />
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 pt-3">
               <div class="form-group">
                 <label for="address">Billing Address</label>
                 <input
@@ -150,10 +150,10 @@
                 />
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 pt-3">
               <div class="form-group">
-                <label for="select">Select State</label>
-                <select class="form-control" id="select">
+                <label for="state">Select State</label>
+                <select class="form-control" id="state">
                   <option value="AL">Alabama</option>
                   <option value="AK">Alaska</option>
                   <option value="AZ">Arizona</option>
@@ -207,8 +207,19 @@
                 </select>
               </div>
             </div>
+            <div class="col-md-3 pt-3">
+              <div class="form-group">
+                <label for="zipcode">Zipcode</label>
+                <input type="text" class="form-control" id="zipcode" placeholder="01234" value="01234" />
+              </div>
+            </div>
           </div>
+          <button type="button" class="container mt-4 btn btn-primary">Order</button>
         </form>
+      </div>
+      <div class="container">
+        <h2 class="fw-bold mt-3">Your Cart</h2>
+        
       </div>
     </main>
   </body>
