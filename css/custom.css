@@ -6,7 +6,11 @@
     width: 18rem;
 }
 
-.custom-table {
-background-color: #212529;
-border: 5rem, rgb(255, 255, 255);
+.sample-cart {
+  width: 100%;
+}
+
+.cart-hr {
+  width: 75%;
+  margin:  20px auto;
 }
